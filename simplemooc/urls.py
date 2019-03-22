@@ -26,6 +26,6 @@ urlpatterns = [
     path('', include(core_urls)),
     path('cursos/', include(coures_urls)),
 ]
-# para funcionamento das imagens:
+# para funcionamento das imagens incluídas pelos usuários:
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

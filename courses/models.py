@@ -21,7 +21,12 @@ class Course(models.Model):
     def __str__(self):
         return self.name
 
-    class Meta: #altera o metadados no admin
+    #permite criar criar uma url que retornará o slug('atalho')
+    def get_absolute_url(self):
+        return self.slug
+
+    # altera o metadados no admin
+    class Meta:
         verbose_name = 'Curso'
         verbose_name_plural = 'Cursos'
         ordering = ['name']
