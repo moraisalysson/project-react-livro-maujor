@@ -1,3 +1,5 @@
-# project-django-w3school
+#Livro: React, Aprenda Praticando
 
-https://www.w3schools.com/react/react_useref.asp
+#Autor: Maurício "Maujor" Samy Silva
+
+Exemplos do livro.
